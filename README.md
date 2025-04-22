@@ -41,17 +41,6 @@
 ## 🚀 安装部署
 
 - [Docker 安装教程（推荐🔥）](./docs/docker.md)
-- docker安装命令
-- docker run -d --restart=unless-stopped \
--p 8080:8080 \
--v /root/bepusdt/conf.toml:/usr/local/bepusdt/conf.toml \
--v /root/bepusdt/sqlite.db:/var/lib/bepusdt/sqlite.db \
--e TG_BOT_ADMIN_ID= \
--e TG_BOT_TOKEN= \
--e USDT_RATE=~0.98 \
--e AUTH_TOKEN= \
--e APP_URI= \
-v03413/bepusdt:latest
 - [异次元发卡对接教程 🌟](./docs/acg-faka.md)
 - [萌次元商城系统对接 🌟](./docs/mcy-shop.md)
 - [独角数卡对接教程 🌟](./docs/dujiaoka.md)
