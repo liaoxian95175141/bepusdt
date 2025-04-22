@@ -1,0 +1,11 @@
+docker run -d --restart=unless-stopped \
+-p 8080:8080 \
+-v /root/bepusdt/conf.toml:/usr/local/bepusdt/conf.toml \
+-v /root/bepusdt/sqlite.db:/var/lib/bepusdt/sqlite.db \
+-e TG_BOT_ADMIN_ID=xxx \
+-e TG_BOT_TOKEN=xxx \
+-e USDT_RATE=~0.98 \
+-e AUTH_TOKEN=xxx \
+-e APP_URI=xxx \
+v03413/bepusdt:latest
+xxx替换自己参数
